@@ -9,5 +9,5 @@ filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 def header(request):
     filename = os.path.join(dirname, 'templates\\portfolio\\hello_world.html')
-    template = loader.get_template("portfolio\\hello_world.html")
+    template = loader.get_template(filename)#"portfolio\\hello_world.html")
     return HttpResponse(template.render())
