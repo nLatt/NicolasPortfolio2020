@@ -1,8 +1,13 @@
 from django.http import HttpResponse
 from django.template import Context, loader
+import os
+
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 # Create your views here.
 
 def header(request):
-    #template = loader.get_template("portfolio/hello_world.html")
-    return HttpResponse("hello world!")#template.render())
+    filename = os.path.join(dirname, 'portfolio\\hello_world.html')
+    template = loader.get_template('portfolio\\hello_world.html')
+    return HttpResponse(template.render())
