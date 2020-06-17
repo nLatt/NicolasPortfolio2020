@@ -9,30 +9,52 @@
 
     <style>
       .container-fluid{
+        position: relative;
         border: 3px solid rgba(0, 0, 0, 0.8);
         max-width: 95%;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        top: 20px;
+        height: 95vh;
       }
-
       .github{
+        position: absolute;
         overflow: auto;
-        background-color: red;
-        width: 450px;
+        right: 20px;
+        height: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.8);
+        /* background-color: red; */
+        width: 20%;
+        padding-top: 20px;
+      }
+      .informations{
+        position: absolute;
+        overflow: auto;
+        left: 20px;
+        height: 90%;
+        border: 3px solid rgba(0, 0, 0, 0.8);
+        /* background-color: blue; */
+        width: 70%;
+        padding-top: 20px;
       }
     </style>
   </head>
 
   <body>
     <div class="container-fluid">
+      <div class="container-fluid informations">
+        <p>this will contain personal infos</p>
+      </div>
       <div class="container-fluid github">
         <div>
           <div class="github-card" data-github="nLatt/date-a-scientist" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
           <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         </div>
-
         <div>
-          <div   class="github-card" data-github="nLatt/Game_Of_Life" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
+          <div class="github-card" data-github="nLatt/Game_Of_Life" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
+          <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+          <h1>Ayy Lmao</h1>
+        </div>
+        <div>
+          <div class="github-card" data-github="nLatt/machine_learning_codeacademy" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
           <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
         </div>
       </div>
