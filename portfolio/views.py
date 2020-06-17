@@ -2,8 +2,6 @@ from django.http import HttpResponse
 from django.template import Context, loader
 import os
 
-dirname = os.path.dirname(__file__)
-
 # Create your views here.
 
 def header(request):
