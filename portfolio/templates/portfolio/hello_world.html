@@ -1,39 +1,48 @@
-<h1>Ayy Lmao means Alien</h1>
+<!-- <h1>Ayy Lmao means Alien</h1> -->
 
 <!DOCTYPE html>
 <html>
   <head>
     <style>
-      .grid{
-        /* background-color: rgba(100, 255, 255, 0.8); */
-        /* border: 1px solid rgba(0, 0, 0, 0.8); */
-        padding: 0px;
-        /* font-size: 30px; */
-        text-align: right;
-      }
-      .github-pos {
+      .main-pos{
+        background-color: rgba(100, 255, 255, 0.8);
+        border: 3px solid rgba(0, 0, 0, 0.8); */
+        /* text-align: right; */
+        width: 95%;
+        height: 1000px;
+        margin: 3%;
         position: relative;
-        display: flex;
+      }
+
+      .github-pos {
+        overflow: auto;
+        position: absolute;
+        /* display: flex;
         flex-direction: column;
-        justify-content: left;
-        text-align: right;
-        top: 100px;
-        width: 50%;
-        left: 35%;
-        border: 1px solid rgba(0, 0, 0, 0.8);
+        justify-content: right; */
+        text-align: left;
+        /* top: 50px; */
+        width: 430px;
+        /* height: 200px; */
+        top: 50px;
+        right: 50px;
+        bottom: 50px;
+        border: 2px solid rgba(0, 0, 0, 0.8);
       }
     </style>
   </head>
 
   <body>
-    <div class="github-pos" class="grid">
-      <div>
-        <div class="github-card" data-github="nLatt/date-a-scientist" data-width="400" data-target="blank" data-height="400" data-theme="default"></div>
-        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-      </div>
-      <div>
-        <div class="github-card" data-github="nLatt/Game_Of_Life" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
-        <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    <div class="main-pos">
+      <div class="github-pos">
+        <div>
+          <div class="github-card" data-github="nLatt/date-a-scientist" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
+          <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+        </div>
+        <div>
+          <div class="github-card" data-github="nLatt/Game_Of_Life" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
+          <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+        </div>
       </div>
     </div>
   </body>
