@@ -1,0 +1,49 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+html, body {
+  height: 100%;
+  background-color: #F0F8FF;
+}
+
+.container-fluid {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  top: 2.5%;
+  height: 95%;
+  max-width: 93%;
+}
+
+.github {
+  position: absolute;
+  overflow: auto;
+  top: 1vh;
+  right: 20px;
+  /* height: auto; */
+  max-height: 80%;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  width: 32%;
+}
+
+.github-repo {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 100%;
+  max-width: 600px;
+}
+
+.informations {
+  position: absolute;
+  overflow: auto;
+  left: 20px;
+  top: 1vh ;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 65%;
+  padding-top: 20px;
+}
+
+.btn {
+  /* width: 10%; */
+  height: 50%;
+  /* border: 3px solid rgba(0, 0, 0, 0.8); */
+}
