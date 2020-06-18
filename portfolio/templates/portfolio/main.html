@@ -2,40 +2,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <style>
-      .container-fluid{
-        position: relative;
-        border: 3px solid rgba(0, 0, 0, 0.8);
-        max-width: 95%;
-        top: 20px;
-        height: 95vh;
-      }
-      .github{
-        position: absolute;
-        overflow: auto;
-        right: 20px;
-        height: 90%;
-        border: 3px solid rgba(0, 0, 0, 0.8);
-        /* background-color: red; */
-        width: 20%;
-        padding-top: 20px;
-      }
-      .informations{
-        position: absolute;
-        overflow: auto;
-        left: 20px;
-        height: 90%;
-        border: 3px solid rgba(0, 0, 0, 0.8);
-        /* background-color: blue; */
-        width: 70%;
-        padding-top: 20px;
-      }
-    </style>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
   </head>
 
   <body>
@@ -51,7 +23,7 @@
         <div>
           <div class="github-card" data-github="nLatt/Game_Of_Life" data-width="400" data-target="blank" data-height="" data-theme="default"></div>
           <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-          <h1>Ayy Lmao</h1>
+          <!-- <h1>Ayy Lmao</h1> -->
         </div>
         <div>
           <div class="github-card" data-github="nLatt/machine_learning_codeacademy" data-width="400" data-target="blank" data-height="" data-theme="default"></div>

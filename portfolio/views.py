@@ -5,6 +5,6 @@ import os
 # Create your views here.
 
 def header(request):
-    filename = os.path.join("portfolio", "hello_world.html")
+    filename = os.path.join("portfolio", "main.html")
     template = loader.get_template(filename)
     return HttpResponse(template.render())

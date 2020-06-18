@@ -1,0 +1,29 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+.container-fluid {
+  position: relative;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  top: 20px;
+  height: 95vh;
+  max-width: 90%;
+}
+
+.github {
+  position: absolute;
+  overflow: auto;
+  right: 20px;
+  height: 90%;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  width: 30%;
+  padding-top: 20px;
+}
+
+.informations {
+  position: absolute;
+  overflow: auto;
+  left: 20px;
+  height: 70%;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  width: 65%;
+  padding-top: 20px;
+}
