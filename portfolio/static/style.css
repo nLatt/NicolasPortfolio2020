@@ -18,20 +18,18 @@ html, body {
   overflow: auto;
   top: 1vh;
   right: 20px;
-  height: auto;
+  /* height: auto; */
   max-height: 80%;
-  /* border: 3px solid rgba(0, 0, 0, 0.8); */
+  border: 3px solid rgba(0, 0, 0, 0.8);
   width: 32%;
 }
 
 .github-repo {
   display: flex;
-  border: 1px solid black;
-}
-
-/* .card {
+  /* border: 1px solid black; */
   width: 100%;
-} */
+  max-width: 600px;
+}
 
 .informations {
   position: absolute;
