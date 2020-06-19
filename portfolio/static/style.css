@@ -52,10 +52,9 @@
 }
 
 .linkedin {
-  position: absolute;
-  overflow: auto;
-  padding: 0;
+  margin-left: auto;
+  max-height: 300px;
   /* width: 20%;
   height: 100%; */
-  left: 48.25%;
+  /* left: 48.25%; */
 }
