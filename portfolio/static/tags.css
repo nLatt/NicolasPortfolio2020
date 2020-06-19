@@ -3,10 +3,10 @@ html, body {
   background-color: #F0F8FF;
 }
 
-h1 {
-  font-size: 3vh;
-}
+/* h1 {
+  font-size: 3vw;
+} */
 
 p {
-  font-size: 2vh;
+  font-size: 15px;
 }

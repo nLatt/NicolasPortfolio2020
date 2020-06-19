@@ -2,23 +2,20 @@
 
 .container-fluid {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  top: 2.5%;
-  height: 93%;
-  max-width: 93%;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  top: 5%;
+  /* height: 90%; */
+  max-width: 90%;
   padding: 0;
 }
 
 .github {
-  position: absolute;
+  margin-left: auto;
   overflow: auto;
-  top: 0;
-  right: 0;
-  margin: 0;
-  max-height: 100%;
-  max-width: 550px;
-  width: 32%;
-  background-color: #e9ecef;
+  max-height: 700px;
+  min-width: 450px;
+  max-width: 450px;
+  padding: 0;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-radius: .3rem;
@@ -29,28 +26,36 @@
   display: flex;
   border: 0.5px solid black;
   width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
 
 .btn {
-  height: 50%;
+  position: relative;
+  right: 0;
+  /* height: 75%; */
 }
 
 .header {
-  padding-top: 2vh;
+  /* padding-top: 1vh;
   /* padding-bottom: 10px; */
-  height: 10%;
-  width: 68%;
+  /* height: 5vw;
+  width: 66.5%;  */
 }
 
 .informations {
+  /* position: absolute; */
   padding-top: 2vh;
+  padding-bottom: 2vh;
   overflow: auto;
-  height: 86.65%;
-  max-width: 45%;
+  height: 700px;
 }
 
 .linkedin {
-  position: relative;
-  left: 45%;
+  position: absolute;
+  overflow: auto;
+  padding: 0;
+  /* width: 20%;
+  height: 100%; */
+  left: 48.25%;
 }
