@@ -3,11 +3,13 @@ from django.template import loader
 import os
 
 # Create your views here.
-repo_list = ["date-a-scientist", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy"]
+
+# Add the repo you want to display
+repo_list_nLatt = ["nLatt", ["date-a-scientist", "date-a-scientist", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy"]]
 
 variables = {
-    "repos": repo_list,
-    "user": "nLatt"
+    "user": repo_list_nLatt[0],
+    "repos": repo_list_nLatt[1],
 }
 
 def header(request):

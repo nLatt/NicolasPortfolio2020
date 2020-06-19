@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  background-color: #F0F8FF;
+}
+
+h1 {
+  font-size: 3vh;
+}
+
+p {
+  font-size: 2vh;
+}
