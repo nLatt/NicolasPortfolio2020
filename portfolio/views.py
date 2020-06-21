@@ -5,7 +5,7 @@ import os
 # Create your views here.
 
 # Add the repo you want to display
-repo_list_nLatt = ["nLatt", ["date-a-scientist", "date-a-scientist", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy", "Game_Of_Life", "machine_learning_codeacademy"]]
+repo_list_nLatt = ["nLatt", ["date-a-scientist", "GameOfLife", "machine_learning_codeacademy", "pokemon_eda", "nLatt/boulder_dash", "nLatt/Catch_Ball"]]
 
 variables = {
     "user": repo_list_nLatt[0],
