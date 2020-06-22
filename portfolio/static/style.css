@@ -13,8 +13,8 @@
   margin-left: auto;
   overflow: auto;
   max-height: 700px;
-  min-width: 450px;
-  max-width: 450px;
+  /* min-width: 400px;
+  max-width: 400px; */
   padding: 0;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
@@ -22,16 +22,12 @@
 }
 
 .github-repo {
+  position: relative;
   background-color: #ffffff;
   display: flex;
   border: 0.5px solid black;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
-.btn {
-  position: relative;
-  right: 0;
 }
 
 
@@ -44,10 +40,12 @@
   height: 700px;
 }
 
-.linkedin {
-  margin-left: auto;
-  max-height: 300px;
-  /* width: 20%;
-  height: 100%; */
-  /* left: 48.25%; */
+.middle-coll {
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 0;
+}
+
+.ready {
+  border: 0px;
 }
