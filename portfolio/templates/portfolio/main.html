@@ -20,7 +20,7 @@
       </div>
 
       <div class="row">
-        <div class="informations jumbotron col-sm-4 ">
+        <div class="informations jumbotron col-sm-6 ">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ligula orci, tincidunt nec risus lacinia, pharetra semper mi. Suspendisse ut leo tempus, semper elit sed, aliquam arcu. Etiam eros tellus, dictum in dapibus ac, porttitor in dui. Quisque sagittis tincidunt maximus. In congue blandit tincidunt. Curabitur placerat pellentesque quam, sed pellentesque nulla commodo et. Sed eu vestibulum nibh. Etiam lacinia elit lacinia erat tincidunt vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum sed mi a porta. Vivamus dapibus diam orci, sagittis vestibulum ante scelerisque id. Aenean ac tempor neque.
 
@@ -30,17 +30,18 @@
           </p>
         </div>
 
-        <div class="col-sm-4 middle-coll">
-          <iframe class="powerpoint" src="https://onedrive.live.com/embed?cid=E578C6588EC79EAC&resid=E578C6588EC79EAC%21115315&authkey=APbdzWnxVUyiohc&em=2" width="476" height="288" frameborder="0" scrolling="no"></iframe>          <div class="jumbotron"></div>
+        <div class="col-sm-6 middle-coll">
+          <iframe class="powerpoint" src="https://onedrive.live.com/embed?cid=E578C6588EC79EAC&resid=E578C6588EC79EAC%21115315&authkey=APbdzWnxVUyiohc&em=2" width="700" height="400" frameborder="0" scrolling="no"></iframe>
+          <div class="jumbotron contacts">Ayy Lmaos are real</div>
         </div>
 
-        <div class="col-sm-4 github">
-          {% for repo in repos %}
-            <div class="github-repo">
-              <div class="github-card" data-github="{{ user }}/{{ repo }}" data-width="" data-target="blank" data-height="" data-theme="default"></div>
-            </div>
-          {% endfor %}
+      </div>
+      <div class="github">
+        {% for repo in repos %}
+        <div class="github-repo">
+          <div class="github-card" data-github="{{ user }}/{{ repo }}" data-width="{{ card_width }}" data-target="blank" data-height="330" data-theme="medium"></div>
         </div>
+        {% endfor %}
       </div>
     </div>
 

@@ -2,51 +2,59 @@
 
 .container-fluid {
   position: relative;
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  border: 1px solid rgba(0, 0, 0, 0.8);
   top: 5%;
-  /* height: 90%; */
-  max-width: 90%;
+  max-width: 95%;
   padding: 1vh;
 }
 
 .github {
-  margin-left: auto;
   overflow: auto;
   max-height: 700px;
-  /* min-width: 400px;
-  max-width: 400px; */
-  padding: 0;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  text-align: center;
+  margin-bottom: 32px;
   border-radius: .3rem;
 }
 
 .github-repo {
-  position: relative;
+  display:  inline-flex;
+  border-radius: 0.5em;
   background-color: #ffffff;
-  display: flex;
+  margin-right: 10px;
+  margin-left: 0px;
+  position: relative;
   border: 0.5px solid black;
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
+.row {
+  max-height: 732px;
+}
 
 .informations {
-  /* position: absolute; */
   padding-top: 2vh;
   padding-bottom: 2vh;
-  width: auto;
+  width: 100%;
   overflow: auto;
   height: 700px;
 }
 
 .middle-coll {
-  /* margin-bottom: 32px; */
   text-align: center;
   padding: 0;
+  margin-left: auto;
+  /* right: 0; */
 }
 
 .powerpoint {
   margin-bottom: 32px;
   width: 100%;
+}
+
+.col-sm-6 {
+  max-width: 48%;
+}
+
+.contacts {
+  overflow: auto;
+  height: 262px;
 }

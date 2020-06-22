@@ -20,6 +20,7 @@ repo_list_nLatt = ["nLatt",
 variables = {
     "user": repo_list_nLatt[0],
     "repos": repo_list_nLatt[1],
+    "card_width": 300,
 }
 
 def header(request):
