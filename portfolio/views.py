@@ -23,7 +23,7 @@ variables = {
     "card_width": 300,
 }
 
-def header(request):
+def main(request):
     filename = os.path.join("portfolio", "main.html")
     template = loader.get_template(filename)
 
