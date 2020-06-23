@@ -8,6 +8,27 @@
   padding: 1vh;
 }
 
+.informations {
+  overflow: auto;
+  height: 700px;
+}
+
+.coll {
+  width: 100%;
+  text-align: left;
+  margin-left: auto;
+}
+
+.powerpoint {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.contacts {
+  overflow: auto;
+  height: 262px;
+}
+
 .github {
   overflow: auto;
   max-height: 700px;
@@ -20,41 +41,6 @@
   display:  inline-flex;
   border-radius: 0.5em;
   background-color: #ffffff;
-  margin-right: 10px;
-  margin-left: 0px;
-  position: relative;
+  margin-right: auto;
   border: 0.5px solid black;
-}
-
-.row {
-  max-height: 732px;
-}
-
-.informations {
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  width: 100%;
-  overflow: auto;
-  height: 700px;
-}
-
-.middle-coll {
-  text-align: center;
-  padding: 0;
-  margin-left: auto;
-  /* right: 0; */
-}
-
-.powerpoint {
-  margin-bottom: 32px;
-  width: 100%;
-}
-
-.col-sm-6 {
-  max-width: 48%;
-}
-
-.contacts {
-  overflow: auto;
-  height: 262px;
 }
