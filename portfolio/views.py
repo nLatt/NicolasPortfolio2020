@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 import os
+from lockdown.decorators import lockdown
 
 # Create your views here.
 
@@ -23,6 +24,7 @@ variables = {
     "card_width": 300,
 }
 
+@lockdown()
 def main(request):
     filename = os.path.join("portfolio", "main.html")
     template = loader.get_template(filename)
