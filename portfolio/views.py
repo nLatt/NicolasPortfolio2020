@@ -7,7 +7,7 @@ from lockdown.decorators import lockdown
 
 # Add the repo you want to display
 repo_list_nLatt = ["nLatt",
-                    ["date-a-scientist",
+                    ["date_a_scientist",
                      "boulder_dash",
                      "Game_Of_Life",
                      "machine_learning_codeacademy",

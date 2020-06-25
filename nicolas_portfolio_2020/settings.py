@@ -125,7 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 # lockdown
 
 LOCKDOWN_ENABLED = True
-# LOCKDOWN_FORM = 'lockdown.forms.AuthForm'
+# LOCKDOWN_FORM = 'templates.lockdown.form'
 LOCKDOWN_PASSWORDS = ("yo")
 
 import django_heroku

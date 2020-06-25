@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 <title>{% block title %}{% endblock %}</title>
 </head>
+
 <body>
-{% block form %}
-{% endblock %}
+
+  <div class="jumbotron login">
+    {% block form %}
+    {% endblock %}
+  </div>
+
 </body>
 </html>

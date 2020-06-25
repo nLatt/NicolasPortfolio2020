@@ -2,13 +2,15 @@
 
 .container-fluid {
   position: relative;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   top: 5%;
   max-width: 95%;
   padding: 1vh;
 }
 
 .informations {
+  padding-bottom: 3vh;
+  padding-top: 3vh;
   overflow: auto;
   height: 700px;
 }
@@ -25,6 +27,8 @@
 }
 
 .contacts {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
   overflow: auto;
   height: 262px;
 }
