@@ -4,50 +4,47 @@
   position: relative;
   /* border: 1px solid rgba(0, 0, 0, 0.8); */
   top: 5%;
-  /* height: 90%; */
-  max-width: 90%;
+  max-width: 95%;
   padding: 1vh;
 }
 
-.github {
-  margin-left: auto;
-  overflow: auto;
-  max-height: 700px;
-  min-width: 450px;
-  max-width: 450px;
-  padding: 0;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  border-radius: .3rem;
-}
-
-.github-repo {
-  background-color: #ffffff;
-  display: flex;
-  border: 0.5px solid black;
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
-.btn {
-  position: relative;
-  right: 0;
-}
-
-
 .informations {
-  /* position: absolute; */
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  width: auto;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
   overflow: auto;
   height: 700px;
 }
 
-.linkedin {
+.coll {
+  width: 100%;
+  text-align: left;
   margin-left: auto;
-  max-height: 300px;
-  /* width: 20%;
-  height: 100%; */
-  /* left: 48.25%; */
+}
+
+.powerpoint {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.contacts {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  overflow: auto;
+  height: 262px;
+}
+
+.github {
+  overflow: auto;
+  max-height: 700px;
+  text-align: center;
+  margin-bottom: 32px;
+  border-radius: .3rem;
+}
+
+.github-repo {
+  display:  inline-flex;
+  border-radius: 0.5em;
+  background-color: #ffffff;
+  margin-right: auto;
+  border: 0.5px solid black;
 }

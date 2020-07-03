@@ -122,5 +122,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
+# lockdown
+
+LOCKDOWN_ENABLED = True
+# LOCKDOWN_FORM = 'templates.lockdown.form'
+LOCKDOWN_PASSWORDS = ("")
+
 import django_heroku
 django_heroku.settings(locals())
+
+# Other settings
+
+APPEND_SLASH=False
